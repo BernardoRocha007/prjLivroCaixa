@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\classes\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\classes\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\livrocaixaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\livrocaixaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|c:\\computaria\\projetos c#\\prjlivrocaixa\\prjlivrocaixa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\classes\\livrocaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\classes\\livrocaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\classes\\lancamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\classes\\lancamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\classes\\serializa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\classes\\serializa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\classes\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\classes\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\livrocaixaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\livrocaixaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjlivrocaixa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F871EC5-1593-4B91-A30C-2DAB8740096B}|prjLivroCaixa\\prjLivroCaixa.csproj|solutionrelative:prjlivrocaixa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Form1.Designer.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Form1.Designer.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Form1.Designer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T20:04:55.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LivroCaixaForm.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\LivroCaixaForm.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\LivroCaixaForm.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\LivroCaixaForm.cs",
+              "RelativeToolTip": "prjLivroCaixa\\LivroCaixaForm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:25.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LivroCaixaForm.cs [Design]",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\LivroCaixaForm.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\LivroCaixaForm.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\LivroCaixaForm.cs [Design]",
+              "RelativeToolTip": "prjLivroCaixa\\LivroCaixaForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:16:18.84Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lancamento.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\Lancamento.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Classes\\Lancamento.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\Lancamento.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Classes\\Lancamento.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:16:53.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LivroCaixa.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\LivroCaixa.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Classes\\LivroCaixa.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\LivroCaixa.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Classes\\LivroCaixa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:15:59.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Program.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Program.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Program.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T20:28:53.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Util.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\Util.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Classes\\Util.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\Util.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Classes\\Util.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T16:14:29.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Serializa.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\Serializa.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Classes\\Serializa.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\Serializa.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Classes\\Serializa.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T20:10:54.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Login.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Login.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Login.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Login.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwDwAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T17:37:16.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Login.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Login.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Login.cs [Design]",
+              "RelativeToolTip": "prjLivroCaixa\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T17:36:29.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Form1.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Form1.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Form1.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Form1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:09:07.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\Usuario.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Classes\\Usuario.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Classes\\Usuario.cs",
+              "RelativeToolTip": "prjLivroCaixa\\Classes\\Usuario.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswFcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:09:07.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Form1.cs",
+              "RelativeDocumentMoniker": "prjLivroCaixa\\Form1.cs",
+              "ToolTip": "C:\\Computaria\\Projetos C#\\prjLivroCaixa\\prjLivroCaixa\\Form1.cs [Design]",
+              "RelativeToolTip": "prjLivroCaixa\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T17:09:07.873Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
