@@ -40,6 +40,7 @@
             this.lbData = new System.Windows.Forms.Label();
             this.lbMensagem = new System.Windows.Forms.Label();
             this.lbTitulo = new System.Windows.Forms.Label();
+            this.btSairLivroCaixa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbRelatorio
@@ -169,11 +170,22 @@
             this.lbTitulo.TabIndex = 24;
             this.lbTitulo.Text = "Titulo";
             // 
+            // btSairLivroCaixa
+            // 
+            this.btSairLivroCaixa.Location = new System.Drawing.Point(713, 425);
+            this.btSairLivroCaixa.Name = "btSairLivroCaixa";
+            this.btSairLivroCaixa.Size = new System.Drawing.Size(75, 23);
+            this.btSairLivroCaixa.TabIndex = 25;
+            this.btSairLivroCaixa.Text = "Voltar";
+            this.btSairLivroCaixa.UseVisualStyleBackColor = true;
+            this.btSairLivroCaixa.Click += new System.EventHandler(this.btSairLivroCaixa_Click);
+            // 
             // LivroCaixaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btSairLivroCaixa);
             this.Controls.Add(this.lbTitulo);
             this.Controls.Add(this.lbMensagem);
             this.Controls.Add(this.tbRelatorio);
@@ -207,5 +219,6 @@
         private System.Windows.Forms.Label lbData;
         private System.Windows.Forms.Label lbMensagem;
         private System.Windows.Forms.Label lbTitulo;
+        private System.Windows.Forms.Button btSairLivroCaixa;
     }
 }

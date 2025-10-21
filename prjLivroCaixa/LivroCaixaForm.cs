@@ -23,14 +23,15 @@ namespace prjLivroCaixa
         {
             InitializeComponent();
 
-            usuario = new Usuario("Bernardo", "", "", 'A');
+            usuario = Login.usuarioLogado;
+
             if (livro == null)
             {
                 livro = new LivroCaixa(DateTime.Now, 1000, nomeArquivo);
                 tbRelatorio.Text = livro.Relatorio();
             }
 
-            lbTitulo.Text = "Livro Caixa da Rapaziada" + livro.Identificador.ToString("yyyy/MM");
+            lbTitulo.Text = "Livro Caixa da Rapaziada " + livro.Identificador.ToString("yyyy/MM");
         }
        
         private void btOk_Click(object sender, EventArgs e)
@@ -65,6 +66,13 @@ namespace prjLivroCaixa
 
             tbData.Text = tbDescricao.Text = tbValor.Text = "";
             rbCredito.Checked = rbDebito.Checked = false;
+        }
+
+        private void btSairLivroCaixa_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Login log = new Login();
+            log.Show();
         }
     }
 }

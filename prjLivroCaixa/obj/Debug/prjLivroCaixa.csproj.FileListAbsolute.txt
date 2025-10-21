@@ -31,3 +31,18 @@ C:\Users\user\OneDrive\Desktop\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCai
 C:\Users\user\OneDrive\Desktop\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.pdb
 C:\Computaria\Projetos C#\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.Login.resources
 C:\Computaria\Projetos C#\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.LivroCaixaForm.resources
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\bin\Debug\prjLivroCaixa.exe.config
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\bin\Debug\prjLivroCaixa.exe
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\bin\Debug\prjLivroCaixa.pdb
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.csproj.AssemblyReference.cache
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.frmCadUser.resources
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.LivroCaixaForm.resources
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.Login.resources
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.Properties.Resources.resources
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.csproj.GenerateResource.cache
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.exe
+C:\Users\unisanta\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.pdb
+C:\Users\user\OneDrive\Desktop\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.LivroCaixaForm.resources
+C:\Users\user\OneDrive\Desktop\prjLivroCaixa\prjLivroCaixa\obj\Debug\prjLivroCaixa.Login.resources

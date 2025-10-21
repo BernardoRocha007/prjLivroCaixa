@@ -14,6 +14,9 @@ namespace prjLivroCaixa
 {
     public partial class Login: Form
     {
+
+        public static Usuario usuarioLogado = null;
+
         private static List<Usuario> usuarios;
         private static string arquivo = "listaUsuarios.dat";
         public Login()
@@ -63,13 +66,21 @@ namespace prjLivroCaixa
                         lbMensagem.Text = "Senha incorreta";
                         return;
                     }
-                   
+
 
                     if (tbSenha.Text.Equals(u.Senha))
                     {
-                        Hide();
-                        LivroCaixaForm frm = new LivroCaixaForm();
-                        frm.Show();
+                        usuarioLogado = u;
+
+                        if (u.Perfil == 'U')
+                        {
+                            Hide();
+                            LivroCaixaForm frm = new LivroCaixaForm();
+                            frm.Show();
+                            return;
+                        }
+
+                        menu.Visible = true;
                         return;
                     }
 
@@ -142,9 +153,36 @@ namespace prjLivroCaixa
                     tbLogin.Text = tbSenha.Text = lbMensagem.Text = "";
                     return;
                 }
+
             }
 
             lbMensagem.Text = "Usuario não encontrado";
+
+        }
+
+        private void OpCadUser_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmCadUser frm = new frmCadUser();
+            frm.Show();
+          
+        }
+
+        private void OpFluxoCaixa_Click(object sender, EventArgs e)
+        {
+            Hide();
+            LivroCaixaForm frm = new LivroCaixaForm();
+            frm.Show();
+            
+        }
+
+        private void btSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -42,7 +42,12 @@
             this.lbSenhaB = new System.Windows.Forms.Label();
             this.lbSenhaA = new System.Windows.Forms.Label();
             this.lbTitulo = new System.Windows.Forms.Label();
+            this.menu = new System.Windows.Forms.MenuStrip();
+            this.OpCadUser = new System.Windows.Forms.ToolStripMenuItem();
+            this.OpFluxoCaixa = new System.Windows.Forms.ToolStripMenuItem();
+            this.btSair = new System.Windows.Forms.Button();
             this.pnTrocaSenha.SuspendLayout();
+            this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbLogin
@@ -79,6 +84,7 @@
             // 
             this.tbSenha.Location = new System.Drawing.Point(201, 115);
             this.tbSenha.Name = "tbSenha";
+            this.tbSenha.PasswordChar = '*';
             this.tbSenha.Size = new System.Drawing.Size(86, 20);
             this.tbSenha.TabIndex = 3;
             this.tbSenha.TextChanged += new System.EventHandler(this.tbSenha_TextChanged);
@@ -134,6 +140,7 @@
             // 
             this.tbSenhaB.Location = new System.Drawing.Point(120, 67);
             this.tbSenhaB.Name = "tbSenhaB";
+            this.tbSenhaB.PasswordChar = '*';
             this.tbSenhaB.Size = new System.Drawing.Size(86, 20);
             this.tbSenhaB.TabIndex = 11;
             // 
@@ -152,6 +159,7 @@
             // 
             this.tbSenhaA.Location = new System.Drawing.Point(120, 36);
             this.tbSenhaA.Name = "tbSenhaA";
+            this.tbSenhaA.PasswordChar = '*';
             this.tbSenhaA.Size = new System.Drawing.Size(86, 20);
             this.tbSenhaA.TabIndex = 10;
             // 
@@ -180,18 +188,55 @@
             this.lbTitulo.AutoSize = true;
             this.lbTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTitulo.ForeColor = System.Drawing.Color.Crimson;
-            this.lbTitulo.Location = new System.Drawing.Point(267, 9);
+            this.lbTitulo.Location = new System.Drawing.Point(255, 35);
             this.lbTitulo.Name = "lbTitulo";
             this.lbTitulo.Size = new System.Drawing.Size(57, 24);
             this.lbTitulo.TabIndex = 7;
             this.lbTitulo.Text = "Login";
             this.lbTitulo.Click += new System.EventHandler(this.lbTitulo_Click);
             // 
+            // menu
+            // 
+            this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.OpCadUser,
+            this.OpFluxoCaixa});
+            this.menu.Location = new System.Drawing.Point(0, 0);
+            this.menu.Name = "menu";
+            this.menu.Size = new System.Drawing.Size(580, 24);
+            this.menu.TabIndex = 8;
+            this.menu.Text = "menuStrip1";
+            this.menu.Visible = false;
+            // 
+            // OpCadUser
+            // 
+            this.OpCadUser.Name = "OpCadUser";
+            this.OpCadUser.Size = new System.Drawing.Size(66, 20);
+            this.OpCadUser.Text = "Cad User";
+            this.OpCadUser.Click += new System.EventHandler(this.OpCadUser_Click);
+            // 
+            // OpFluxoCaixa
+            // 
+            this.OpFluxoCaixa.Name = "OpFluxoCaixa";
+            this.OpFluxoCaixa.Size = new System.Drawing.Size(96, 20);
+            this.OpFluxoCaixa.Text = "Fluxo de Caixa";
+            this.OpFluxoCaixa.Click += new System.EventHandler(this.OpFluxoCaixa_Click);
+            // 
+            // btSair
+            // 
+            this.btSair.Location = new System.Drawing.Point(493, 415);
+            this.btSair.Name = "btSair";
+            this.btSair.Size = new System.Drawing.Size(75, 23);
+            this.btSair.TabIndex = 9;
+            this.btSair.Text = "Sair";
+            this.btSair.UseVisualStyleBackColor = true;
+            this.btSair.Click += new System.EventHandler(this.btSair_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(580, 450);
+            this.Controls.Add(this.btSair);
             this.Controls.Add(this.lbTitulo);
             this.Controls.Add(this.pnTrocaSenha);
             this.Controls.Add(this.lbMensagem);
@@ -200,10 +245,15 @@
             this.Controls.Add(this.tbLogin);
             this.Controls.Add(this.lbSenha);
             this.Controls.Add(this.lbLogin);
+            this.Controls.Add(this.menu);
+            this.MainMenuStrip = this.menu;
             this.Name = "Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.pnTrocaSenha.ResumeLayout(false);
             this.pnTrocaSenha.PerformLayout();
+            this.menu.ResumeLayout(false);
+            this.menu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,5 +275,9 @@
         private System.Windows.Forms.TextBox tbSenhaA;
         private System.Windows.Forms.Label lbSenhaB;
         private System.Windows.Forms.Label lbSenhaA;
+        private System.Windows.Forms.MenuStrip menu;
+        private System.Windows.Forms.ToolStripMenuItem OpCadUser;
+        private System.Windows.Forms.ToolStripMenuItem OpFluxoCaixa;
+        private System.Windows.Forms.Button btSair;
     }
 }

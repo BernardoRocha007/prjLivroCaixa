@@ -45,6 +45,8 @@
             this.tbBuscar = new System.Windows.Forms.TextBox();
             this.btBuscar = new System.Windows.Forms.Button();
             this.btExcluir = new System.Windows.Forms.Button();
+            this.btSairCad = new System.Windows.Forms.Button();
+            this.btReiniciar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbTitulo
@@ -111,7 +113,6 @@
             this.tbCpf.Name = "tbCpf";
             this.tbCpf.Size = new System.Drawing.Size(108, 20);
             this.tbCpf.TabIndex = 6;
-           
             // 
             // tbLogin
             // 
@@ -215,11 +216,36 @@
             this.btExcluir.UseVisualStyleBackColor = true;
             this.btExcluir.Click += new System.EventHandler(this.btExcluir_Click);
             // 
+            // btSairCad
+            // 
+            this.btSairCad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSairCad.Location = new System.Drawing.Point(588, 408);
+            this.btSairCad.Name = "btSairCad";
+            this.btSairCad.Size = new System.Drawing.Size(75, 30);
+            this.btSairCad.TabIndex = 19;
+            this.btSairCad.Text = "Voltar";
+            this.btSairCad.UseVisualStyleBackColor = true;
+            this.btSairCad.Click += new System.EventHandler(this.btSairCad_Click);
+            // 
+            // btReiniciar
+            // 
+            this.btReiniciar.Enabled = false;
+            this.btReiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btReiniciar.Location = new System.Drawing.Point(410, 408);
+            this.btReiniciar.Name = "btReiniciar";
+            this.btReiniciar.Size = new System.Drawing.Size(172, 30);
+            this.btReiniciar.TabIndex = 20;
+            this.btReiniciar.Text = "Reiniciar Senha";
+            this.btReiniciar.UseVisualStyleBackColor = true;
+            this.btReiniciar.Click += new System.EventHandler(this.btReiniciar_Click);
+            // 
             // frmCadUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 450);
+            this.Controls.Add(this.btReiniciar);
+            this.Controls.Add(this.btSairCad);
             this.Controls.Add(this.btExcluir);
             this.Controls.Add(this.btBuscar);
             this.Controls.Add(this.tbBuscar);
@@ -264,6 +290,8 @@
         private System.Windows.Forms.TextBox tbBuscar;
         private System.Windows.Forms.Button btBuscar;
         private System.Windows.Forms.Button btExcluir;
+        private System.Windows.Forms.Button btSairCad;
+        private System.Windows.Forms.Button btReiniciar;
     }
 }
 

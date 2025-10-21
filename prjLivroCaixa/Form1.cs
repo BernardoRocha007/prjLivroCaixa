@@ -20,13 +20,17 @@ namespace prjLivroCaixa
 
         private static string arquivo = "listaUsuarios.dat";
 
+        private static Usuario usuario;
+
         static List<Usuario> usuarios; //oq pertence a classe é criado quando o programa começa a rodar,oq é criado pelo formulario,ele e sempre resetado,e ao ser estatico os dados se mantem sempre que abre o programa
 		private void frmCadUser_Load(object sender, EventArgs e)
 		{
+            usuario = new Usuario("Bernardo", "", "",'A') ;
 			if(usuarios == null)
             {
 				usuarios = new List<Usuario>();
             }
+            
 		}
 		public frmCadUser()
         {
@@ -194,6 +198,7 @@ namespace prjLivroCaixa
             posicaoAchei = pos;
             posicao = pos;
 			Mostra(usuarios[pos]);
+            btReiniciar.Enabled = true;
 			AlteraInterface();
 
 
@@ -226,7 +231,7 @@ namespace prjLivroCaixa
             }
 
 
-            }
+        }
 
 
         private void btExcluir_Click(object sender, EventArgs e)
@@ -237,6 +242,26 @@ namespace prjLivroCaixa
             }
             usuarios.Remove(usuarios[posicaoAchei]);
             btLimpar_Click(sender, e);
+            tbRelatorio.Text = Relatorio();
+            Serializa.SerializaUsuario(usuarios, arquivo);
+        }
+
+        private void btSairCad_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Login log = new Login();
+            log.Show();
+        }
+
+        private void btReiniciar_Click(object sender, EventArgs e)
+        {
+            if (posicaoAchei == -1)
+            {
+                return;
+            }
+
+            usuarios[posicaoAchei].TrocaSenha(usuarios[posicaoAchei].Cpf);
+            usuarios[posicaoAchei].PrimeiroAcesso = true;
             tbRelatorio.Text = Relatorio();
             Serializa.SerializaUsuario(usuarios, arquivo);
         }
